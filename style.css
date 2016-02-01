@@ -42,6 +42,8 @@ h1{
     font-size: 2vw;
     text-align: left;
     font-family: 'HarrisFont';
+    /*line-height: 310%;*/
+    vertical-align: middle;
 }
 
 p  {
@@ -54,5 +56,6 @@ p  {
 }
 
 .smaller{
-	font-size: .3em;
+	font-size: 2vw;
+  vertical-align: middle;
 }
