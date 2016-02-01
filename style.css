@@ -22,7 +22,18 @@ body {
     background-size: cover;
     font-family: 'HarrisFont';
 }
-
+#line{
+  left:0%;
+  height: 1.5px;
+  width:30px;
+  background-color: #00ffcc;
+}
+.logo{
+  max-width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 div{
   position: absolute;
   top: 50%;
@@ -30,11 +41,21 @@ div{
   transform: translate(-50%, -50%);
 }
 
-p  {
+p, p a  {
+    text-decoration: none;
     color: white;
     font-size: 5.5vw;
     text-align: center;
     font-family: 'HarrisFont';
     letter-spacing: -.05em;
     word-spacing: -.2em;
+}
+
+#socmed{
+  left:97%;
+  max-height: 300px;
+  width:30px;
+}
+.sm{
+  max-width: 30px;
 }
