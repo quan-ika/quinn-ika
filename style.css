@@ -21,7 +21,6 @@ body {
     background-color: #cccccc;
     background-size: cover;
     font-family: 'HarrisFont';
-
 }
 
 div{
@@ -42,7 +41,6 @@ h1{
 	color: white;
     font-size: 2vw;
     text-align: left;
-    font-style: italic;
     font-family: 'HarrisFont';
 }
 
@@ -51,6 +49,8 @@ p  {
     font-size: 5.5vw;
     text-align: left;
     font-family: 'HarrisFont';
+    letter-spacing: -.1em;
+    word-spacing: -.3em;
 }
 
 .smaller{
