@@ -3,16 +3,16 @@
   src: url('HarrisFont/EOT/ATCHarris-Thin.eot'); /* IE9 Compat Modes */
   src: url('HarrisFont/WOFF2/ATCHarris-Thin.woff2') format('woff2'), /* Super Modern Browsers */
        url('HarrisFont/WOFF/ATCHarris-Thin.woff') format('woff'), /* Pretty Modern Browsers */
-       url('HarrisFont/OTF/ATCHarris-Thin.otf')  format('opentype'), /* Safari, Android, iOS */
+       url('HarrisFont/OTF/ATCHarris-Thin.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'HarrisFont';
   font-style: italic;
   src: url('HarrisFont/EOT/ATCHarris-ThinSlanted.eot'); /* IE9 Compat Modes */
-  src: url('HarrisFont/WOFF2/ATCHarris-ThinSlanted.woff2') format('woff2'), /* Super Modern Browsers */
+  src: url('HarrisFont/WOFF2/ATCHarris-ThinSlanted.woff2') format('woff2'),  Super Modern Browsers 
        url('HarrisFont/WOFF/ATCHarris-ThinSlanted.woff') format('woff'), /* Pretty Modern Browsers */
-       url('HarrisFont/OTF/ATCHarris-ThinSlanted.otf')  format('opentype'), /* Safari, Android, iOS */
+       url('HarrisFont/OTF/ATCHarris-ThinSlanted.otf')  format('opentype'); /* Safari, Android, iOS */
 }
 
 body {
@@ -42,6 +42,7 @@ h1{
 	color: white;
     font-size: 2vw;
     text-align: left;
+    font-style: italic;
     font-family: 'HarrisFont';
 }
 
