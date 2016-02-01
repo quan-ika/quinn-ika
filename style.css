@@ -55,7 +55,9 @@ p, p a  {
   left:97%;
   max-height: 300px;
   width:30px;
+  padding-right: 10px;
 }
 .sm{
-  max-width: 30px;
+  max-width: 25px;
+  padding: 10px;
 }
