@@ -10,7 +10,7 @@
   font-family: 'HarrisFont';
   font-style: italic;
   src: url('HarrisFont/EOT/ATCHarris-ThinSlanted.eot'); /* IE9 Compat Modes */
-  src: url('HarrisFont/WOFF2/ATCHarris-ThinSlanted.woff2') format('woff2'),  Super Modern Browsers 
+  src: url('HarrisFont/WOFF2/ATCHarris-ThinSlanted.woff2') format('woff2'), /* Super Modern Browsers */
        url('HarrisFont/WOFF/ATCHarris-ThinSlanted.woff') format('woff'), /* Pretty Modern Browsers */
        url('HarrisFont/OTF/ATCHarris-ThinSlanted.otf')  format('opentype'); /* Safari, Android, iOS */
 }
@@ -42,7 +42,7 @@ div{
   transform: translate(-50%, -50%);
 }
 
-p, p a  {
+p {
     text-decoration: none;
     color: white;
     font-size: 5.5vw;
@@ -62,3 +62,36 @@ p, p a  {
   max-width: 20px;
   padding: 10px;
 }
+
+.sm:hover{
+ background: white;
+}
+
+/* LEFT TO RIGHT */
+p a {
+text-decoration: none;
+color: white;
+font-size: 5.5vw;
+text-align: center;
+font-family: 'HarrisFont';
+letter-spacing: -.05em;
+word-spacing: -.2em;
+display: inline-block;
+}
+p a:after {
+content: '';
+display: block;
+height: 1.5px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+p a:hover:after {
+width: 100%;
+background: #00ffcc;
+}
+p a:hover{
+color: #00ffcc;
+font-style: italic;
+}
+
