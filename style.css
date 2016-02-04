@@ -24,7 +24,7 @@ body {
 }
 #line{
   left:0%;
-  height: 1.5px;
+  height: 2px;
   width:35px;
   background-color: #00ffcc;
 }
@@ -81,10 +81,10 @@ display: inline-block;
 p a:after {
 content: '';
 display: block;
-height: 1.5px;
+height: 2px;
 width: 0;
 background: transparent;
-transition: width .5s ease, background-color .5s ease;
+transition: width 1s ease, background-color 1s ease;
 }
 p a:hover:after {
 width: 100%;
