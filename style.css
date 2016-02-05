@@ -52,22 +52,41 @@ p {
     word-spacing: -.2em;
 }
 
-#socmed{
+.socmed{
   left:95%;
   max-height: 300px;
   width:30px;
   padding-right: 20px;
 }
-.sm, .soc{
+/*.sm{
   max-width: 20px;
   padding: 10px;
 }
 
 .sm:hover{
  background: white;
+}*/
+
+
+.sm
+{
+  max-width: 20px;
+  padding: 10px;
+
+border-radius: 0px;
+transition: border-radius 1s, background 1.5s;
+
 }
 
-/* LEFT TO RIGHT */
+.sm:hover
+{
+  transition: border-radius 1s, background 1.5s;
+border-radius:40px;
+background: white;
+}
+
+
+/* LEFT TO RIGHT AND SKEW*/
 p a {
 text-decoration: none;
 color: white;
