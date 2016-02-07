@@ -70,7 +70,7 @@ p {
   left:95%;
   max-height: 300px;
   width:30px;
-  margin-right: 30px;
+  padding-right: 30px;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%); 
