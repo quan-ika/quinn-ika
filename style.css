@@ -125,10 +125,13 @@ p a:hover{
   p, p a{
     font-size: 9vw;
   }
+  .socmed{
+    min-width: 20%;
+  }
   .sm{
-    max-width: 10px;
+    width: 30px;
   }
   .logo{
-    max-width: 30px;
+    max-width: 40px;
   }
 }
