@@ -125,4 +125,10 @@ p a:hover{
   p, p a{
     font-size: 9vw;
   }
+  .sm{
+    max-width: 10px;
+  }
+  .logo{
+    max-width: 30px;
+  }
 }
