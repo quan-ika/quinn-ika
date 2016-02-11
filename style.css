@@ -122,6 +122,9 @@ p a:hover{
 }
 
 @media only screen and (max-device-width:600px){
+  body{
+    width: 100%;
+  }
   p, p a{
     font-size: 9vw;
   }
